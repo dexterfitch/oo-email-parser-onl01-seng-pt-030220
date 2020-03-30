@@ -7,4 +7,5 @@ class EmailAddressParser
 
   def parse
     list_array = @list.split(/[\s,]/)
+  end
 end
