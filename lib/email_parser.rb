@@ -1,6 +1,5 @@
 class EmailAddressParser
-  def initialize(list)
-  end
+  attr_accessor :email_list
 
   def parse
   end
