@@ -1,7 +1,7 @@
 class EmailAddressParser
-  attr_accessor :email_list
+  attr_accessor :list
 
-  def parse
-    email_list.split(", ")
+  def initialize(list)
+    @list = list
   end
 end
