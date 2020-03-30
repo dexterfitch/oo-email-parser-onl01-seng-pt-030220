@@ -4,4 +4,7 @@ class EmailAddressParser
   def initialize(list)
     @list = list
   end
+
+  def parse
+    list_array = @list.split(", "," ")
 end
